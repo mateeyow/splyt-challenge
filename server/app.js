@@ -11,7 +11,7 @@ app.use(morgan('short'))
 app.use(express.json())
 app.use(express.urlencoded({ extended: false }))
 app.use(cookieParser())
-app.use(cors({ origin: 'http://localhost:3000' }))
+app.use(cors({ origin: ['http://localhost:3000', 'https://splyt-challenge.netlify.app/'] }))
 
 app.get('/drivers', async (req, res, next) => {
   const { lat, long, count = 10 } = req.query
