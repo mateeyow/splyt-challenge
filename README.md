@@ -1,6 +1,10 @@
 # Splyt Challenge
 
-My solution for the splyt challenge.
+My solution for the splyt challenge. 
+
+## DEMO
+
+[https://splyt-challenge.netlify.app/](https://splyt-challenge.netlify.app/)
 
 ## Prerequisite
 
