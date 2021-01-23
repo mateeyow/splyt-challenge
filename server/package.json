@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "DEBUG=server:server PORT=8080 nodemon --exec babel-node ./bin/www"
+    "start": "DEBUG=server:server PORT=8080 nodemon --exec babel-node ./bin/www",
+    "server": "PORT=8080 NODE_ENV=production DEBUG=server:server babel-node ./bin/www"
   },
   "dependencies": {
     "axios": "^0.21.1",
